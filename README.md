@@ -119,18 +119,19 @@ customer-management/
 │               ├── CustomerServiceTest.java
 │               └── BulkUploadServiceTest.java
 └── frontend/
-    ├── package.json
-    └── src/
-        ├── App.js                  # Routing
-        ├── index.js
-        ├── index.css
-        ├── services/
-        │   └── customerService.js  # All Axios API calls
-        └── pages/
-            ├── CustomerListPage.js
-            ├── CustomerFormPage.js
-            ├── CustomerDetailPage.js
-            └── BulkUploadPage.js
+|    ├── package.json
+|   └── src/
+|        ├── App.js                  # Routing
+|       ├── index.js
+|       ├── index.css
+|       ├── services/
+|       │   └── customerService.js  # All Axios API calls
+|       └── pages/
+|           ├── CustomerListPage.js
+|           ├── CustomerFormPage.js
+|           ├── CustomerDetailPage.js
+|           └── BulkUploadPage.js
+|___ excel files
 ```
 
 ---
